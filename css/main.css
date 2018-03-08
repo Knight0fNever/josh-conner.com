@@ -47,16 +47,51 @@ nav {
   min-width: 375px;
 }
 
+.row1 {
+  height: 50%;
+}
+
+.row2 {
+  height: 20%;
+}
+
+.row3 {
+  height: 20%;
+}
+
+.row4 {
+  height: 10%;
+}
+
+.row4 a {
+  color: white;
+}
+
+.about-me {
+  height: 35em;
+  width: 100%;
+}
+
+.about-me-head {
+  height: 20%;
+}
+
+.about-me-text {
+  height: 80%;
+}
+
+
+
 @media screen and (max-width: 860px) {
   .top-container {
     background-image: url("../resources/images/background-port.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: top;
-    background-position: 50% 50%;
-    position: absolute;
-    height: 36em;
-    width: 100%;
-    min-width: 375px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: top;
+  background-position: 50% 50%;
+  /* position: absolute; */
+  height: 36em;
+  width: 100%;
+  min-width: 375px;
   }
 }
