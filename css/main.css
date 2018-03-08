@@ -1,6 +1,6 @@
 body {
   font-family: "Nanum Gothic", sans-serif;
-  min-width: 550px;
+  min-width: 375px;
 }
 
 .top-container {
@@ -12,12 +12,12 @@ body {
   /* position: absolute; */
   height: 36em;
   width: 100%;
-  min-width: 550px;
+  min-width: 375px;
 }
 
 nav {
   height: 5em;
-  min-width: 550px;
+  min-width: 375px;
 }
 
 .header {
@@ -43,6 +43,10 @@ nav {
   color: white;
 }
 
+.resp-width {
+  min-width: 375px;
+}
+
 @media screen and (max-width: 810px) {
   .top-container {
     background-image: url("../resources/images/background-port.jpg");
@@ -53,6 +57,6 @@ nav {
     position: absolute;
     height: 36em;
     width: 100%;
-    min-width: 550px;
+    min-width: 375px;
   }
 }
