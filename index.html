@@ -4,7 +4,7 @@
 <head>
   <!-- Meta -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
 
   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
   <!-- Bootstrap CSS -->
@@ -19,86 +19,89 @@
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-light bg-light">
+
+  <nav class="navbar fixed-top navbar-light bg-light p-0">
     <a class="navbar-brand mx-auto" href="#">
       <img src="./resources/images/logo.png" class="img-fluid" id="logo">
     </a>
   </nav>
 
-  <div class="container-flex flex-container" id="mainContainer">
+  <div class="container-flex pl-0 pr-0" id="mainContainer">
     <div class="header-bg">
       <div class="header">
         <div class="row top-container row1" id="row1">
-          <div class="col-md d-flex align-items-end justify-content-center">
-            <span class="white-text h1">Hello, I'm Josh</span>
+          <div class="col d-flex justify-content-center">
+            <span id="helloText" class="white-text h1">Hello, I'm Josh</span>
           </div>
+
         </div>
         <div class="row row2" id="row2">
-          <div class="col-md text-center">
+          <div class="col text-center">
             <span class="white-text font-italic">Thanks for stopping by!</span>
           </div>
         </div>
         <div class="row row3">
           <span></span>
         </div>
-        <div class="row row4">
-          <div class="col-md">
-            <div class="col-md mt-2 text-center h4">
-              <a href="https://github.com/Knight0fNever">
-                <i class="fab fa-github"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/jconner05/">
-                <i class="fab fa-linkedin"></i>
-              </a>
-              <a href="https://twitter.com/Jconner05">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="https://www.facebook.com/knight0fnever">
-                <i class="fab fa-facebook"></i>
-              </a>
-              <a href="https://www.instagram.com/knight0fnever">
-                <i class="fab fa-instagram"></i>
-              </a>
+        <div class="projects">
+          <div class="row row4">
+            <div class="col text-center">
+              <div class="h4">
+                <a href="https://github.com/Knight0fNever">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jconner05/">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/Jconner05">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/knight0fnever">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/knight0fnever">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
-    <div class="row pt-3">
-      <div class="col-md text-center">
-        <span class="h3 p-2">About Me</span>
+    <div class="row">
+      <div class="col text-center h2 pt-2">
+        <span>About Me</span>
       </div>
     </div>
     <!-- About Me -->
     <div class="row">
-      <div class="col-md text-center">
+      <div class="col text-center">
         <p class="p-2">
-          I'm currently a Systems Administrator for a chain of Art Galleries on San Francisco's Fishermans Wharf. 
+          I'm currently a Systems Administrator for a chain of Art Galleries on San Francisco's Fishermans Wharf.
         </p>
         <p class="p-2">
-          After moving to San
-          Francisco in 2014, my career began in the sales management department of an independent North Face retailer. I
-          quickly showed my talent at IT and computer science in that position and was then transferred to a sister company
+          After moving to San Francisco in 2014, my career began in the sales management department of an independent North Face retailer.
+          I quickly showed my talent at IT and computer science in that position and was then transferred to a sister company
           in 2015 to take up the job I have today. I love learning new things and have been growing my knowledge, including
-          Java and Web programming by taking classes at the local community college. 
+          Java and Web programming by taking classes at the local community college.
         </p>
         <p class="p-2">
-          I'm truly passionate about all things
-          IT. As a self-starter and avid learner, I am starting on the path to earn certifications from industry leaders
-          such as Coursea, Microsoft, and CompTIA.
+          I'm truly passionate about all things IT. As a self-starter and avid learner, I am starting on the path to earn certifications
+          from industry leaders such as Coursea, Microsoft, and CompTIA.
         </p>
       </div>
     </div>
     <!-- Projects -->
     <div class="row">
-      <div class="col-md">
-        <h1 class="h1 text-center">
+      <div class="col text-center">
+        <h1 class="h1">
           Projects
         </h1>
       </div>
     </div>
-    <div class="row pt-2">
-      <div class="col-md p-2">
+    <div class="row pb-3">
+      <div class="col pl-2 pr-2 pt-2">
         <div class="card">
           <img src="./resources/images/pkmn.jpg" class="card-img-top img-fluid" id="pkmnImage">
           <div class="card-body">
@@ -112,7 +115,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md p-2">
+      <div class="col pl-2 pr-2 pt-2">
         <div class="card">
           <img src="./resources/images/coming_soon.jpeg" class="card-img-top img-fluid" id="pkmnImage">
           <div class="card-body">
@@ -120,13 +123,13 @@
               Coming Soon!
             </h3>
             <p class="card-text">
-              Coming Soon!
+
             </p>
-            <a href="#" class="btn btn-primary">Visit</a>
+            <button class="btn btn-secondary">Visit</button>
           </div>
         </div>
       </div>
-      <div class="col-md p-2">
+      <div class="col pl-2 pr-2 pt-2">
         <div class="card">
           <img src="./resources/images/coming_soon.jpeg" class="card-img-top img-fluid" id="pkmnImage">
           <div class="card-body">
@@ -134,27 +137,37 @@
               Coming Soon!
             </h3>
             <p class="card-text">
-              Coming Soon!
+
             </p>
-            <a href="#" class="btn btn-primary">Visit</a>
+            <button class="btn btn-secondary">Visit</button>
           </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-sm">
-        <footer class="footer">
-          <div class="container">
-            <span class="text-muted">2018 &copy;
-              <a href="https://github.com/Knight0fNever">Josh Conner</a>
-            </span>
+    <!-- Contact -->
+    <div class="row p-2">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">
+              Contact Me
+            </h2>
+            <p class="card-text h5">
+              Email: josh@josh-conner.com
+            </p>
           </div>
-        </footer>
+        </div>
       </div>
     </div>
   </div>
 
-
+  <footer class="footer">
+    <div class="container m-0">
+      <span class="text-muted">2018 &copy;
+        <a href="https://github.com/Knight0fNever">Josh Conner</a>
+      </span>
+    </div>
+  </footer>
 
 
   <!-- JS -->
