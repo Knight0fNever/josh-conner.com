@@ -8,6 +8,10 @@ nav {
   height: 5em;
 }
 
+.card {
+  height: 100%;
+}
+
 .row {
   width: 100% !important;
   margin: 0;
@@ -31,10 +35,6 @@ nav {
   background-attachment: top;
   width: 100%;
   height: 25em;
-}
-
-.col {
-  padding: 0;
 }
 
 #mainContainer {
@@ -91,6 +91,14 @@ a:hover {
   background-color: #f8f9fa;
 }
 
+.service-title {
+  color: #AD5600;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 @media screen and (max-width: 859.99px) {
   .header-bg {
     background-image: url("../resources/images/background-port.jpg");
@@ -108,5 +116,10 @@ a:hover {
 
   .card {
     min-width: 12em;
+  }
+
+  #bodyContainer {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 }
