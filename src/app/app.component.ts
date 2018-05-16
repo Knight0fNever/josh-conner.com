@@ -1,6 +1,8 @@
 import { Component } from "@angular/core";
 import { enableProdMode } from "@angular/core";
 
+enableProdMode();
+
 @Component({
   selector: "app-root",
   templateUrl: "./app.component.html",
@@ -8,8 +10,4 @@ import { enableProdMode } from "@angular/core";
 })
 export class AppComponent {
   title = "app";
-
-  ngOnInit() {
-    enableProdMode();
-  }
 }
