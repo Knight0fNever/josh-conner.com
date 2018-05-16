@@ -1,0 +1,143 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic");
+
+.header-bg {
+  background-image: url("assets/img/background.jpg");
+  background-color: rgba(48, 48, 48, 0.85);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: top;
+  width: 100%;
+  height: 25em;
+}
+
+#mainContainer {
+  padding-top: 5em;
+}
+
+body {
+  font-family: "Nanum Gothic", sans-serif !important;
+  width: 100%;
+  min-width: 375px;
+}
+
+nav {
+  height: 5em;
+}
+
+.card {
+  height: 100%;
+}
+
+.row {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+#helloText {
+  margin-top: 3.8em;
+}
+
+.header {
+  background-color: rgba(48, 48, 48, 0.85);
+  width: 100%;
+  height: 100%;
+}
+
+#mainContainer {
+  padding-top: 5em;
+}
+
+#logo {
+  height: 3em;
+}
+
+.white-text {
+  color: white;
+}
+
+.row1 {
+  height: 50%;
+  margin: 0;
+}
+
+.row2 {
+  height: 20%;
+}
+
+.row3 {
+  height: 20%;
+}
+
+.row4 {
+  height: 10%;
+}
+
+.row4 a {
+  color: white;
+}
+
+.about-me {
+  width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.card-text {
+  height: 2.5em;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f8f9fa;
+}
+
+.service-title {
+  color: #ad5600;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+@media screen and (max-width: 999.99px) {
+  .header-bg {
+    background-image: url("assets/img/background-port.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: top;
+    background-position: 50% 50%;
+  }
+
+  .header {
+    background-color: rgba(48, 48, 48, 0.85);
+    width: 100%;
+    height: 100%;
+  }
+
+  .card {
+    min-width: 12em;
+  }
+
+  #bodyContainer {
+    padding-left: 0.5em !important;
+    padding-right: 0.5em !important;
+  }
+
+  #projCardRow {
+    padding-left: 0;
+  }
+
+  #contactRow {
+    padding-left: 0;
+  }
+
+  #visitBtn {
+    padding-top: 1.5em;
+  }
+}
